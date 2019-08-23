@@ -1,5 +1,5 @@
 function changeTitles(){
-	title = document.querySelector('title');
+	title = document.querySelector('h1.jumbotron-heading');
 	title.textContent = "Ce que j'ai appris à THP";
 
 	sous_titre = document.querySelector(".container > .lead");
